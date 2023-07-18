@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" id="Viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q34CMR3Q8E"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q34CMR3Q8E');
+    </script>
+    <title>sema웹진</title>
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="../js/slick.js" type="text/javascript"></script>
+    <script src="../js/custom.js" type="text/javascript"></script>
+</head>
+<script>
+  
+
+    $(window).scroll(function(){
+        var scroll_top     = $(window).scrollTop();
+        var main_h         = $(".sub_banner").height() - 40;
+        var contents_h     = $(".sub_contents").height();
+        var sub_h          = $(".wrap").height();
+
+        var footer_icon_h  = $(".footer_icon").height();
+        var footer_h       = $(".footer").height();
+
+        if(scroll_top >= main_h){
+            $(".gnb_wrap").addClass('fixed');
+        } else {
+            $(".gnb_wrap").removeClass('fixed');
+        };
+
+        if(scroll_top >= 140){
+            $(".btn_floating").addClass('on');
+        } else {
+            $(".btn_floating").removeClass('on');
+        };
+
+        // btn_floating_check();
+    });
+    
+      $(document).ready(function($){
+        $('.mo_gnb_wrap .btn_mo_menu').click(function(){
+            if( $('.mo_gnb_wrap .mo_gnb').hasClass('on')){
+                $('.mo_gnb_wrap .mo_gnb').removeClass('on');
+            } else{
+                $('.mo_gnb_wrap .mo_gnb').addClass('on');
+            }
+        });
+        $('.mo_gnb_wrap .btn_mo_menu').click(function(){
+            if( $(this).hasClass('change')){
+                $(this).removeClass('change');
+            } else{
+                $(this).addClass('change');
+            }
+        });
+        $('.btn_floating .btn_top').click(function(){
+            $('html, body').animate({scrollTop:0},400);
+	        return false;
+        });  
+
+        // btn_floating_check();
+    });
+
+    // function btn_floating_check() {
+    //     var btn_floating_h = $(".btn_floating").height()
+    //                             + $(".footer_icon").height() 
+    //                             + $(".footer").height() 
+    //                             + 100 + "px";
+    //     var screenWidth = $('body').width();
+        
+    //     if (screenWidth < 767) {
+    //         btn_floating_h = "20px";
+    //         btnFloatingRight = "1rem";
+    //     } else {
+    //         $(".btn_floating").css("bottom", btn_floating_h);
+    //         $(".btn_floating").css("right", btnFloatingRight);
+    //     }
+
+    // }
+</script>
+<body>
+    <div class="wrap">
+        <section class="sub_banner top_banner">
+            <div class="bg bg1_1"></div>
+            <div class="publication_num">
+                <div class="publication_num_inner">
+                    <span class="cl_f">SEMA WEBZINE<br>웹진 VOL.117</span>
+                    <h1 class="logo"><a href="index_view.html"><img src="../images/logo.png" alt="세마 로고"></a></h1>
+                    <div class="mo_gnb_wrap">
+                        <div class="btn_mo_menu">
+                            <a href="javascript:;">
+                                <div class="bar1 bar"></div>
+                                <div class="bar2 bar"></div>
+                                <div class="bar3 bar"></div>
+                            </a>
+                        </div>
+                        <ul class="mo_gnb">
+                            <li class="mo_menu"><a href="javascript:;">Special Issue</a>
+                                <ul class="sub">
+                                    <li><a href="sub1_1_view.html">SEMA 스페셜</a></li>
+                                    <li><a href="sub1_2_view.html">쉽게 보는 상품</a></li>
+                                </ul>
+                            </li>
+                            <li class="mo_menu"><a href="javascript:;">Inside SEMA</a>
+                                <ul class="sub">
+                                    <li><a href="sub2_1_view.html">SEMA 사람들</a></li>
+                                    <li><a href="sub2_2_view.html">SEMA는 지금1</a></li>
+                                    <li><a href="sub2_3_view.html">SEMA는 지금2</a></li>
+                                </ul>
+                            </li>
+                            <li class="mo_menu"><a href="javascript:;">SEMA Plus</a>
+                                <ul class="sub">
+                                    <li><a href="sub3_1_view.html">행복한 S빌리지</a></li>
+                                    <li><a href="sub3_2_view.html">반가운 새 가족</a></li>
+                                </ul>
+                            </li>
+                            <li class="mo_menu"><a href="javascript:;">Life & Culture</a>
+                                <ul class="sub">
+                                    <li><a href="sub4_1_view.html">S-만물상회</a></li>
+                                    <li><a href="sub4_2_view.html">이 달의 추천</a></li>
+                                </ul>
+                            </li>
+                            <li class="mo_menu"><a href="javascript:;">Enjoy SEMA</a>
+                                <ul class="sub">
+                                    <li><a href="sub5_1_view.html">동행 퀴즈</a></li>
+                                    <li><a href="sub5_2_view.html">SEMA가 있어 좋다</a></li>
+                                    <!--<li><a href="sub5_3_view.html">SEMA 와 함께하는 행복여행</a></li>-->
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_banner_tit">
+                <div class="tit_inner">
+                    <p class="cate">Special Issue&nbsp; &nbsp;<b> SEMA 스페셜</b></p>
+                    <h2>과학기술인공제회가 꿈꾸는 미래, <br>
+                        ‘N-SEMA 2033’</h2>
+                </div>
+            </div>
+            <header>
+                <div class="gnb_wrap">
+                    <ul class="gnb">
+                        <li class="menu">
+                            <a class="line" href="javascript:;">Special Issue</a>
+                            <div class="sub_menu">
+                                <div class="sub_menu_inner">
+                                    <ul class="sub">
+                                        <li><a href="sub1_1_view.html">SEMA 스페셜</a></li>
+                                        <li><a href="sub1_2_view.html">쉽게 보는 상품</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub2_1_view.html">SEMA는 사람들</a></li>
+                                        <li><a href="sub2_2_view.html">SEMA는 지금1</a></li>
+                                        <li><a href="sub2_3_view.html">SEMA는 지금2</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub3_1_view.html">행복한 S빌리지</a></li>
+                                        <li><a href="sub3_2_view.html">반가운 새 가족</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub4_1_view.html">S-만물상회</a></li>
+                                        <li><a href="sub4_2_view.html">이 달의 추천</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub5_1_view.html">동행 퀴즈</a></li>
+                                        <li><a href="sub5_2_view.html">SEMA가 있어 좋다</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <a class="line" href="javascript:;">Inside SEMA</a>
+                            <div class="sub_menu">
+                                <div class="sub_menu_inner">
+                                    <ul class="sub">
+                                        <li><a href="sub1_1_view.html">SEMA 스페셜</a></li>
+                                        <li><a href="sub1_2_view.html">쉽게 보는 상품</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub2_1_view.html">SEMA는 사람들</a></li>
+                                        <li><a href="sub2_2_view.html">SEMA는 지금1</a></li>
+                                        <li><a href="sub2_3_view.html">SEMA는 지금2</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub3_1_view.html">행복한 S빌리지</a></li>
+                                        <li><a href="sub3_2_view.html">반가운 새 가족</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub4_1_view.html">S-만물상회</a></li>
+                                        <li><a href="sub4_2_view.html">이 달의 추천</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub5_1_view.html">동행 퀴즈</a></li>
+                                        <li><a href="sub5_2_view.html">SEMA가 있어 좋다</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <a class="line" href="javascript:;">SEMA Plus</a>
+                            <div class="sub_menu">
+                                <div class="sub_menu_inner">
+                                    <ul class="sub">
+                                        <li><a href="sub1_1_view.html">SEMA 스페셜</a></li>
+                                        <li><a href="sub1_2_view.html">쉽게 보는 상품</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub2_1_view.html">SEMA는 사람들</a></li>
+                                        <li><a href="sub2_2_view.html">SEMA는 지금1</a></li>
+                                        <li><a href="sub2_3_view.html">SEMA는 지금2</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub3_1_view.html">행복한 S빌리지</a></li>
+                                        <li><a href="sub3_2_view.html">반가운 새 가족</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub4_1_view.html">S-만물상회</a></li>
+                                        <li><a href="sub4_2_view.html">이 달의 추천</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub5_1_view.html">동행 퀴즈</a></li>
+                                        <li><a href="sub5_2_view.html">SEMA가 있어 좋다</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <a class="line" href="javascript:;">Life & Culture</a>
+                            <div class="sub_menu">
+                                <div class="sub_menu_inner">
+                                    <ul class="sub">
+                                        <li><a href="sub1_1_view.html">SEMA 스페셜</a></li>
+                                        <li><a href="sub1_2_view.html">쉽게 보는 상품</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub2_1_view.html">SEMA는 사람들</a></li>
+                                        <li><a href="sub2_2_view.html">SEMA는 지금1</a></li>
+                                        <li><a href="sub2_3_view.html">SEMA는 지금2</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub3_1_view.html">행복한 S빌리지</a></li>
+                                        <li><a href="sub3_2_view.html">반가운 새 가족</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub4_1_view.html">S-만물상회</a></li>
+                                        <li><a href="sub4_2_view.html">이 달의 추천</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub5_1_view.html">동행 퀴즈</a></li>
+                                        <li><a href="sub5_2_view.html">SEMA가 있어 좋다</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <a href="javascript:;">Enjoy SEMA</a>
+                            <div class="sub_menu">
+                                <div class="sub_menu_inner">
+                                    <ul class="sub">
+                                        <li><a href="sub1_1_view.html">SEMA 스페셜</a></li>
+                                        <li><a href="sub1_2_view.html">쉽게 보는 상품</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub2_1_view.html">SEMA는 사람들</a></li>
+                                        <li><a href="sub2_2_view.html">SEMA는 지금1</a></li>
+                                        <li><a href="sub2_3_view.html">SEMA는 지금2</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub3_1_view.html">행복한 S빌리지</a></li>
+                                        <li><a href="sub3_2_view.html">반가운 새 가족</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub4_1_view.html">S-만물상회</a></li>
+                                        <li><a href="sub4_2_view.html">이 달의 추천</a></li>
+                                    </ul>
+                                    <ul class="sub">
+                                        <li><a href="sub5_1_view.html">동행 퀴즈</a></li>
+                                        <li><a href="sub5_2_view.html">SEMA가 있어 좋다</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>  
+                </div>
+            </header>
+        </section>
+        <section class="sub_contents">
+            <div class="sub_inner">
+                <p class="contents_tit">Special Issue &nbsp; | &nbsp; <span class="f_blue f_bold">SEMA 스페셜</span></p>
+                
+                <div class="sub_word_wide">2003년 과학기술인의 생활 안정과 복지증진을 위해 설립된 과학기술인공제회(SEMA)가 올해로 20주년을 맞았다. SEMA는 20년간 공제급여, 과학기술인연금 등 다양한 생활 안정 사업과 복지서비스를 운영하며 과학기술인을 위해 쉼 없이 달려왔다. 2023년 현재 11만여 명 이상의 회원과 11조 원이 넘는 자산을 운용하고 있으며, 과학기술인의 복지 및 생활 안정을 책임지는 대표기관으로 자리매김했다.
+                </div>
+                <div class="sub_word_wide">SEMA는 지금까지 이뤄온 성과에 만족하지 않고, 설립목적을 되돌아보며 새로운 10년을 준비했다. 회원분들의 다양한 의견을 수렴해 지난 20년간 회원의 기대를 충족해왔는지 대내외 환경 분석을 통해 검토하고, 모두가 공감할 수 있는 비전과 전략을 수립했다. SEMA가 최근 수립한 ‘N-SEMA 2033’을 살펴보며 SEMA가 꿈꾸는 미래는 어떤 모습인지 살펴보자.
+                </div>
+                <div class="word_wrap_w">
+                    <div class="sub_tit">‘Next, New, &’ SEMA</div>
+                    <div class="sub_img"><img src="../images/sub1_1/sub1_1_2.png" alt=""></div>
+                    <div class="sub_word">‘N-SEMA 2033’의 ‘N’에는 여러 의미가 담겨 있다. 우선 ‘다음(Next)’과 ‘새로움(New)’이라는 뜻이다. 미래를 내다보고 다음 단계로 새롭게 나아갈 것이라는 SEMA의 의지를 담았다. 지금까지 공제회는 양적 성장에 집중해 왔다. 하지만 이제 SEMA는 성년이 되었다. 충분히 성장하고 발전했다는 뜻이다. 이제는 양적 성장보다는 질적 성장에 집중해 이전과는 다른 차별화를 도모해야 할 때다. 이에 따라 SEMA는 개별회원의 특성까지 고려한 ‘스마트한’ 공제회를 꿈꾸고 있다.
+                    </div>
+                    <div class="sub_word_wide">‘N’에는 ‘~와(And, &)’라는 뜻도 있다. ‘회원과’ 함께 성장한다는 의지를 담았다. 자산의 성장뿐만 아니라, 회원의 발전에도 SEMA가 든든한 버팀목이 되겠다는 의미다. 또 회원들과 함께 과학기술 분야의 성장과 발전을 위해 노력하고 협력하는 공제회가 되겠다는 바람도 담았다.</div>
+                    <div class="sub_word_wide">N-SEMA에 담긴 뜻에 따라 SEMA는 세 가지의 새로운 미래상을 그렸다. 먼저 다양한 상품을 제공하고 복지사업의 질적 성장을 확대해 과학기술인 복지 및 생활 안정의 대표기관으로 위상을 제고한다. 두 번째는 업계 최고를 선도하는(leading) 자산운용 기관이 되는 것이다. 마지막으로, ‘과학기술인의 든든한 파트너 기관’이 되는 것이 목표다. 내부적으로는 직원의 개인 능력뿐만 아니라 구성원 모두의 성장과 성과를 도모하는 시너지 창출 기관으로 변모할 계획이다. 2033년의 SEMA는 패스트 팔로어(fast follower)가 아닌 퍼스트 무버(first mover)로 신뢰받는 기관이 되기를 꿈꾼다.</div>
+                </div> 
+                <div class="word_wrap_w">
+                    <div class="sub_tit">N-SEMA 2033 비전맵</div>
+                    <div class="sub_word">되고 싶은 미래를 그려냈다면, 이제 구체적인 목표를 세울 차례다. SEMA는 세 가지 미래상을 바탕으로 비전맵을 수립했다. SEMA의 각 글자를 딴 핵심 가치를 설정하고, 각 가치마다 전략 방향과 과제를 도출했다.
+                    </div>
+                    <div class="sub_img"><img src="../images/sub1_1/sub1_1_3.png" alt=""></div>
+                    <div class="sub_word">우선 맞춤형 금융서비스를 운영해 ‘가치 공유(Share Value)’를 실천한다. 이를 위해 회원자격을 확대해 기존 운영 상품의 회원 가입률을 높이는 동시에, 회원의 니즈에 부합하는 다양한 상품을 개발할 계획이다. 특히 개인·법인 및 세대별 맞춤형 등 회원 맞춤형 신규상품을 기획해 경쟁력 있는 금융상품을 제공하고자 한다.</div>
+                    <div class="sub_word_wide">또 규모에 걸맞게 최적의 복지서비스를 제공한다고 ‘약속(Engagement)’했다. 세대별, 지역별 편중 없이 복지사업을 내실화해 회원 수요 맞춤형 복지사업을 추진한다는 계획이다. 또 은퇴과학기술인과 재직과학기술인 모두를 만족시킬 수 있는 공제회관(사이언스 콤플렉스)을 구축 해, 과학기술인에 특화된 프로그램이나 트렌드를 반영한 복지서비스를 운영할 예정이다.</div>
+                    <div class="sub_word_wide">자산운용의 목표는 ‘안정적 자산관리(Management)’다. 최근 경제위기와 금리상승으로, 유동성 관리와 대응 역량 강화가 갈수록 중요해지고 있다. 이에 따라 안정적인 수익 창출을 위해 자산운용체계와 리스크관리 체계를 고도화할 예정이다. 자산군을 세분화하고 유동성 자산 비중을 확대하며, 시장전망을 반영한 자산 배분 시스템을 강화하고자 한다. 또 ‘과학기술활동을 활성화하고, 과학기술 분야의 국가경쟁력 제고에 이바지한다’는 공제회 설립목적을 고려해, 사회적 가치 및 과학기술 발전에 기여할 수 있는 가치투자(공공기술 사업화 및 벤처 투자, 미래 혁신 및 전략기술 투자, ESG 투자 등)를 강화할 계획이다.</div>
+                    <div class="sub_word_wide">마지막으로, SEMA는 조직성장을 위한 책임(Accountability) 경영체계를 확립한다. 이를 위해 합리적 조직·인력 관리체계, 우수 인재 양성 제도 등을 마련하고, 성과관리 및 협력문화 강화를 통해 시너지를 창출하고자 한다. 또 ESG 경영을 실천하고, 선진데이터 체계를 정립하고 업무 자동화를 통해 선진 금융 경영혁신 시스템을 확립하는 것이 목표다.</div>
+                    <div class="sub_word_wide">지금까지 살펴본 것처럼, SEMA는 ‘N-SEMA 2033’을 통해 과학기술인과 함께 밝고 풍요로운 미래를 꿈꾸고 있다. 2033년 공제회는 약 33조 원의 자산과 25만 명의 회원을 보유한 기관으로 성장할 것으로 예상된다. SEMA는 이 규모에 걸맞는 자산운용과 복지서비스 전문기관이 되어, 과학기술인들의 신뢰와 기대에 부응하고자 한다. 2033년의 SEMA를 위해, 모두의 응원이 필요한 시점이다.</div>
+                </div> 
+            </div>
+        </section>
+        <div class="footer_icon pt_60 pb_60">
+            <div class="footer_inner">
+                <div class="icon_wrap">
+                    <div class="icon icon1">
+                        <a href="javascript:;"><img src="../images/main/footer_icon1.png" alt="과학기술연금"></a>
+                    </div>
+                    <div class="icon icon2">
+                        <a href="javascript:;"><img src="../images/main/footer_icon2.png" alt="적립형공제급여사업"></a>
+                    </div>
+                    <div class="icon icon3">
+                        <a href="javascript:;"><img src="../images/main/footer_icon3.png" alt="목돈급여사업"></a>
+                    </div>
+                    <div class="icon icon4">
+                        <a href="javascript:;"><img src="../images/main/footer_icon4.png" alt="과학기술인으뜸적금"></a>
+                    </div>
+                    <div class="icon icon5">
+                        <a href="javascript:;"><img src="../images/main/footer_icon5.png" alt="복지사업"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="section_inner">
+                <div class="logo2"><img src="../images/main/logo2.png" alt="b_logo"></div>
+                <div class="footer_center_wrap">
+                    <p class="address">06223 서울시 강남구 논현로 430(역삼동 726) 아세아타워 15층</p>
+                    <p class="e-mail">news@sema.or.kr  |  <span class="p_num">02)3469-7777,7799</span></p>
+                </div>
+                <div class="footer_right_wrap">
+                    <div class="sns_icon_wrap">
+                        <div class="icon_fb"><a href="https://www.facebook.com/happysema0000" target="_blank" rel="noopener noreferrer"><img src="../images/main/sns_icon_fb.png" alt="페이스북 아이콘"></a></div>
+                        <div class="icon_yt"><a href="https://www.youtube.com/channel/UC50Bs54B6w6wP0wst3E5Fgw/featured" target="_blank" rel="noopener noreferrer"><img src="../images/main/sns_icon_yt.png" alt="유튜브 아이콘"></a></div>
+                        <div class="icon_nv"><a href="http://blog.naver.com/happysema" target="_blank" rel="noopener noreferrer"><img src="../images/main/sns_icon_nv.png" alt="네이버 블로그 아이콘"></a></div>
+                    </div>
+                    <div class="select_wrap" style="width:120px; margin-left: -456px;">
+                        <!-- <select name="지난호 웹진 보기" onchange="if(this.value != '')window.open(this.value);"> -->
+                        <!-- </select> -->
+                        <iframe id="footer_prev" src="https://www.sema.or.kr/webzine/view_webzine.html" name="webzine_view" border="0" frameborder="0" framespacing="0" marginheight="0" marginwidth="0" scrolling="no" vspace="0" allowtransparency="true" width="630" height="50" title="webzine_view" style="display: inline-block;"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">© Copyright 과학기술인공제회. All rights reserved.</div>
+        </div>
+    </div>
+    <div class="btn_floating">
+        <div class="btn_top">
+            <a href="javascript:;"><img src="../images/bt_top.png" alt=""></a>
+        </div>
+        <div class="btn_home">
+            <a href="index_view.html"><img src="../images/bt_home.png" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>
