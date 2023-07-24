@@ -14,7 +14,7 @@
     <script src="../js/custom.js" type="text/javascript"></script>
 </head>
 <script>
-    /*슬라이드*/
+    /*클릭 오픈 리스트*/
     document.addEventListener("DOMContentLoaded", function () {
         const slides = document.querySelectorAll(".list li");
         const images = document.querySelectorAll(".box li");
@@ -65,9 +65,6 @@
                         </p>
                     </div>
                     <div class="btn-main"><a href="javascript:;" class="fc-w fw-500">솔닥 베이직 신청하기</a></div>
-                    <div class="bg-img">
-                        <img src="../images/main_tablet1.png" alt="메인 이미지">
-                    </div>
                 </div>
             </div>
         </section>
@@ -83,26 +80,32 @@
                             환자가 의료진 모두에게 쉽고 편한 솔닥 베이직으로 환자와의 만남을 이어가세요.
                         </p>
                     </div>
-                    <div class="box-wrap">
-                        <ul>
-                            <li>
+                    <ul class="box-wrap">
+                        <li>
+                            <div class="box-inner">
                                 <div class="icon"><img src="../images/intro_icon1.png" alt="편지 아이콘"></div>
                                 <p class="box-txt">우리 병원 대면 진료 환자에게 <br>솔닥 베이직 비대면 진료 링크를 전달하세요</p>
-                            </li>
-                            <li>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-inner">
                                 <div class="icon"><img src="../images/intro_icon2.png" alt="휴대폰 터치 아이콘"></div>
                                 <p class="box-txt">전송된 링크 클릭으로 쉽고 간편하게 <br>솔닥 비대면 진료를 예약할 수 있습니다</p>
-                            </li>
-                            <li>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-inner">
                                 <div class="icon"><img src="../images/intro_icon3.png" alt="QR코드 아이콘"></div>
                                 <p class="box-txt">환자가 QR코드를 스캔하는 방법으로 <br>직접 예약할 수도 있습니다</p>
-                            </li>
-                            <li>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-inner">
                                 <div class="icon"><img src="../images/intro_icon4.png" alt="청진기 아이콘(비대면 진료)"></div>
                                 <p class="box-txt">다음 진료는 솔닥 비대면 진료로 <br>환자와의 만남을 이어가세요</p>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -154,24 +157,28 @@
                                     <p>프로그램 설치 없는 <br>온라인 서비스</p>
                                     <span>별도 프로그램 설치 없이 모든 디바이스에서 <br>웹으로 진료와 처방을 할 수 있습니다.</span>
                                 </a>
+                                <div class="m-box-img"><img src="../images/explan-box-img1.png" alt=""></div>
                             </li>
                             <li>
                                 <a href="javascript:;">
                                     <p>독보적인 타임 슬롯 기능</p>
                                     <span>별도 프로그램 설치 없이 모든 디바이스에서 <br>웹으로 진료와 처방을 할 수 있습니다.</span>
                                 </a>
+                                <div class="m-box-img"><img src="../images/explan-box-img2.png" alt=""></div>
                             </li>
                             <li>
                                 <a href="javascript:;">
                                     <p>모바일 예진지 기능</p>
                                     <span>별도 프로그램 설치 없이 모든 디바이스에서 <br>웹으로 진료와 처방을 할 수 있습니다.</span>
                                 </a>
+                                <div class="m-box-img"><img src="../images/explan-box-img3.png" alt=""></div>
                             </li>
                             <li>
                                 <a href="javascript:;">
                                     <p>각종 서류 발급 자동화</p>
                                     <span>별도 프로그램 설치 없이 모든 디바이스에서 <br>웹으로 진료와 처방을 할 수 있습니다.</span>
                                 </a>
+                                <div class="m-box-img"><img src="../images/explan-box-img4.png" alt=""></div>
                             </li>
                         </ul>
                         <ul class="box">
@@ -281,6 +288,40 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="roll-03">
+                        <ul>
+                            <li>
+                                <img src="../images/review-icon1.png" alt="">
+                                <div class="box-txt">
+                                    <p>
+                                        다른 플랫폼은 진료 뜨면 광클하는 경쟁 <br>
+                                        시스템이더라고요.솔닥이 제일 좋아요!
+                                    </p>
+                                    <span>서울 서초 피부과의원</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../images/review-icon2.png" alt="">
+                                <div class="box-txt">
+                                    <p>
+                                        비대면 진료 보면 입금부터 처방까지 수기 <br>로
+                                        해야 했는데 한방에 되니 너무 편해요
+                                    </p>
+                                    <span>서울 중랑구 피부과의원</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../images/review-icon1.png" alt="">
+                                <div class="box-txt">
+                                    <p>
+                                        비대면 진료 보면 cs 해줄 일이 더 많은데 <br>
+                                        솔닥 쓰면 그런 일이 없습니다
+                                    </p>
+                                    <span>경기 일산시 안과</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -292,13 +333,19 @@
                     </div>
                     <div class="notice-wrap">
                         <ul class="left">
-                            <img src="../images/pro-icon1.png" alt="">
+                            <p class="notice-icon notice-icon1">
+                                <img src="../images/pro-icon1.png" alt="">
+                                <span>솔닥 베이직</span>
+                            </p>
                             <li>매번 병원에 가지 않아도 진료를 보고 약을 처방받을 수 있어요.</li>
                             <li>나를 잘 아는 의사선생님과 솔닥에서도 진료를 이어 나갈 수 있어요.</li>
                             <li>비대면 진료를 보더라도, 언제든 병원에 직접 방문할 수 있어요.</li>
                         </ul>
                         <ul class="right">
-                            <img src="../images/pro-icon2.png" alt="">
+                            <p class="notice-icon notice-icon2">
+                                <img src="../images/pro-icon2.png" alt="">
+                                <span>솔닥 주치의</span>
+                            </p>
                             <li>자연스러운 재진 유도, 내 환자와 관계를 꾸준히 이어나갈 수 있어요.</li>
                             <li>솔닥이 자체 개발한 시스템으로 진료 히스토리를 한눈에 볼 수 있어요.</li>
                             <li>QR코드 하나로 환자의 비대면 진료 예약을 간단하게 도울 수 있어요</li>
@@ -315,6 +362,26 @@
                         <p>비대면 진료의 한계를 넘어 더 탁월한 의료 인프라를 제공합니다.</p>
                     </div>
                     <div class="box-wrap">
+                        <ul class="box-inner">
+                            <li>
+                                <img src="../images/sup_img1.png" alt="">
+                                <p>대면-비대면 진료 관리를 한 번에</p>
+                                <span>표준화된 진료 경험으로 의사와 환자 모두에게 <br>만족감을 더합니다</span>
+                            </li>
+                            <li>
+                                <img src="../images/sup_img2.png" alt="">
+                                <p>모바일 예진지 사전제공</p>
+                                <span>모바일 예진지로 필요한 정보를 미리 수집하세요. <br>
+                                축적되는 진료 데이터를 기반으로 <br>비대면 진료 환자의 라포를 형성할 수 있습니다.</span>
+                            </li>
+                            <li>
+                                <img src="../images/sup_img3.png" alt="">
+                                <p>리마인더 알람 방송</p>
+                                <span>재진 시기가 가까운 환자에게 리마인더 메시지를 <br>직접 발송하고 다이렉트로 비대면 예약을 유도하세요.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-box-wrap">
                         <ul>
                             <li>
                                 <img src="../images/sup_img1.png" alt="">
@@ -335,11 +402,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="promotion">
-                    <img class="bg-icon" src="../images/sup-bg1.png" alt="">
+                <div class="promotion">     
                     <div class="txt">
                         <h2>현재 무제한 무료 프로모션 진행중</h2>
                         <p>추가 금액 없이 누리는 모든 기능, 지금 바로 만나보세요</p>
+                        <img class="bg-icon" src="../images/sup-bg1.png" alt="">
                     </div>
                     <div class="btn-main"><a href="javascript:;" class="fc-w fw-500">솔닥 베이직 신청하기</a></div>
                 </div>
@@ -378,6 +445,15 @@
                         </details>
                         <details>
                             <summary>우리 병원에 대면 진료를 본 환자들만 비대면 진료가 가능한가요?</summary>
+                            <p>
+                                기존 원내 환자들 중 비대면 진료로 치료 및 경과 유지가 가능한 환자들(경증, 만성질환, 정신과질환, 시술/수술후 케어 등)에게 의료진이 대면진료 후
+                                비대면 진료의새로운 옵션값을 제공하는 서비스입니다.
+                                가령, 3개월 간격으로 원내에서 대면 진료를 통해 고혈압약을 주기적으로 받아가던 혈압이 잘 조절되고 있는 고혈압환자에게 6개월 간격으로 대면진료 및
+                                혈압검사를 권장하고 3개월 간격으로 솔닥 베이직 비대면 진료 서비스를 권할 수 있습니다.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>솔닥 베이직을 통해 대부분의 약 처방이 가능한가요?</summary>
                             <p>
                                 기존 원내 환자들 중 비대면 진료로 치료 및 경과 유지가 가능한 환자들(경증, 만성질환, 정신과질환, 시술/수술후 케어 등)에게 의료진이 대면진료 후
                                 비대면 진료의새로운 옵션값을 제공하는 서비스입니다.

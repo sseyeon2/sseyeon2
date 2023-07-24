@@ -155,7 +155,7 @@ a:not(.link_st) {
 }
 /*layout*/
 .wrap{position: relative;}
-.cont{width: 1200px; margin: auto; text-align: center;}
+.cont{width: 120rem; margin: auto; text-align: center;}
 /*font-style*/
 .fw-600{font-weight: 600;}
 .fw-500{font-weight: 500;}
@@ -185,5 +185,6 @@ footer .private li:last-child{border:none;}
 footer .private li a{color: #fff;}
 footer .add{color: #A3A3A3; font-size: 1.6rem; line-height: 3rem; margin-bottom: 6rem;}
 footer .copyright{color: #A3A3A3; font-size: 1.6rem;}
+
 
 
