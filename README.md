@@ -1,4 +1,4 @@
-## Run Seyeon!
+## Run!
 
 ### 🏃Introduction in a Word
 
