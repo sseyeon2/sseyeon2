@@ -1,23 +1,26 @@
-## Project
+<p align="center">
+    <img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=000&text='-'*&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=50&fontAlign=14&reversal=true" width="600"/> 
+</p>
 
-### 🏃Project 1 로그인, 회원가입, 쓰레드 기능 구현 페이지 ▶
-https://github.com/wecode-bootcamp-korea/49-1st-Team1-frontend
-
-#### My Contributions ▷ 로그인, 회원가입, 쓰레드 목록 페이지 구현
 <br>
 
-### 🏃Project 2 오설록 클론 코딩 프로젝트 ▶
-https://github.com/wecode-bootcamp-korea/49-2nd-5Sherlock-frontend
+<h2 align='center'><i>Skills</i></h2>
 
-#### My Contributions ▷ 메인, 제품 상세, 댓글, 결제 페이지(UI) 구현
+<p align="center" display="inline-block">
+    <img src="https://img.shields.io/badge/JavaScript-grey?style=flat-for-the-badge&logo=JavaScript" height="30"/>
+    <img src="https://img.shields.io/badge/TypeScript-grey?style=flat-for-the-badge&logo=TypeScript" height="30"/>
+    <img src="https://img.shields.io/badge/React-grey?style=flat-for-the-badge&logo=React" height="30"/>
+    <img src="https://img.shields.io/badge/Html5-grey?style=flat-for-the-badge&logo=Html5" height="30"/>
+    <img src="https://img.shields.io/badge/Sass-grey?style=flat-for-the-badge&logo=Sass&logoColor=red" height="30"/>
+</p>
+
+<br>
 <br>
 
-### 🏃Project 3 우리들의 트레이너 위트 ▶
-https://github.com/wecode-bootcamp-korea/49-3rd-WEE.T-frontend
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sseyeon2&theme=onedark&show_icons=true&layout=donut" height="200"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=sseyeon2&show_icons=true&theme=onedark&count_private=true" height="200"/>
 
-#### My Contributions ▷ 메인, 소셜로그인(카카오, 네이버), 회원가입, 식단 제공, 운동법 제공, NAV(60%) 페이지 구현
-<br>
+<!--[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJeYeongR&count_bg=%23030303&title_bg=%23FFB6F3&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)-->
 
-### 🏃Project 4 ▶ 플루언트 기업협업 https://wmc-demo.fluentt.ai/
-#### My Contributions ▷ 3js 아바타 클라이언트 페이지 스킨, 배경 토글버튼 구현
-
+</div>
